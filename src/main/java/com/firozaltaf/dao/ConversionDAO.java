@@ -8,6 +8,7 @@ import org.springframework.stereotype.Repository;
 import org.springframework.web.multipart.MultipartFile;
 import com.firozaltaf.mc.ConversionResponse;
 import com.firozaltaf.mc.ConversionStatusResponse;
+import com.firozaltaf.mc.TargetFile;
 import com.firozaltaf.model.ConversionInput;
 import com.firozaltaf.model.ConversionOutput;
 import com.firozaltaf.model.ConversionStatusInput;
@@ -87,9 +88,12 @@ public class ConversionDAO {
 		conversionStatusOutputRepository.save(conversionStatusOutput);
 	}
 
-	public DownloadFileInput saveDownloadFileInput(int targetFileId, String downloadFileUrl) {
+	public DownloadFileInput saveDownloadFileInput(TargetFile targetFile, String downloadFileUrl, String fileType) {
 		DownloadFileInput downloadFileInput = new DownloadFileInput();
-		downloadFileInput.setTargetFileId(targetFileId);
+		downloadFileInput.setTargetFileId(targetFile.getId());
+		downloadFileInput.setFileName(targetFile.getName());
+		downloadFileInput.setFileSize(targetFile.getSize());
+		downloadFileInput.setFileType(fileType);
 		downloadFileInput.setUrl(downloadFileUrl);
 		Date date = new Date();
 		downloadFileInput.setCreatedDate(date);
@@ -100,12 +104,15 @@ public class ConversionDAO {
 	public void saveDownloadFileOutput(DownloadFileInput downloadFileInput, byte[] bytes) {
 		DownloadFileOutput downloadFileOutput = new DownloadFileOutput();
 		BeanUtils.copyProperties(downloadFileInput, downloadFileOutput, "id");
+		downloadFileOutput.setFileType(downloadFileInput.getFileType());
+		downloadFileOutput.setFileName(downloadFileInput.getFileName());
+		downloadFileOutput.setFileSize(downloadFileInput.getFileSize());
 		downloadFileOutput.setBytes(bytes);
 		Date date = new Date();
 		downloadFileOutput.setCreatedDate(date);
 		downloadFileOutput.setUpdatedDate(date);
 		downloadFileOutput.setDownloadFileInputCreatedDate(downloadFileInput.getCreatedDate());
-		downloadFileOutput.setDownloadFileUpdatedDate(downloadFileInput.getUpdatedDate());
+		downloadFileOutput.setDownloadFileInputUpdatedDate(downloadFileInput.getUpdatedDate());
 		downloadFileOutputRepository.save(downloadFileOutput);
 	}
 

@@ -2,7 +2,11 @@ package com.firozaltaf.service;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.List;
 import org.apache.http.HttpEntity;
 import org.apache.http.client.methods.CloseableHttpResponse;
@@ -70,7 +74,7 @@ public class DwgToJpgConvertorService {
 			}
 			List<TargetFile> targetFiles = conversionStatusResponse.getTarget_files();
 			for (TargetFile targetFile : targetFiles) {
-				downloadFile(targetFile);
+				downloadFile(targetFile, conversionStatusResponse.getTarget_format());
 			}
 			return "conversion success";
 		} catch (Exception e) {
@@ -102,24 +106,20 @@ public class DwgToJpgConvertorService {
 		return conversionStatusResponse;
 	}
 
-	private void downloadFile(TargetFile targetFile) {
-		String localFilename = "src/main/resources/" + targetFile.getName();
+	private void downloadFile(TargetFile targetFile, String fileType) {
+		String path = "src/main/resources/static/downloads/" + targetFile.getName();
 		int targetFileId = targetFile.getId();
 		String downloadFileUrl = DOWNLOAD_FILE_URL.replace("{TARGET_FILE_ID}", targetFileId + "");
 		LOGGER.info("\nDOWNLOAD_FILE_URL=" + downloadFileUrl);
-		DownloadFileInput downloadFileInput = conversionDAO.saveDownloadFileInput(targetFileId, downloadFileUrl);
+		DownloadFileInput downloadFileInput = conversionDAO.saveDownloadFileInput(targetFile, downloadFileUrl, fileType);
 		HttpGet request = new HttpGet(downloadFileUrl);
 		try (CloseableHttpResponse response = httpClient.execute(request)) {
-			HttpEntity responseContent = response.getEntity();
-			try (BufferedInputStream bis = new BufferedInputStream(responseContent.getContent());
-					BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream(localFilename))) {
-				byte[] bytes = new byte[bis.available()];
+			HttpEntity httpEntity = response.getEntity();
+			try (BufferedInputStream bis = new BufferedInputStream(httpEntity.getContent()); BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream(path))) {
 				int inByte;
 				while ((inByte = bis.read()) != -1) {
 					bos.write(inByte);
-					bos.write(bytes);
 				}
-				conversionDAO.saveDownloadFileOutput(downloadFileInput, bytes);
 			} catch (RuntimeException e) {
 				e.printStackTrace();
 				LOGGER.error(e);
@@ -129,6 +129,17 @@ public class DwgToJpgConvertorService {
 			e.printStackTrace();
 			LOGGER.error(e);
 		}
+		FileInputStream fis = null;
+		byte[] bytes = {};
+		try {
+			fis = new FileInputStream(path);
+			bytes = new byte[fis.available()];
+			fis.read(bytes);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		conversionDAO.saveDownloadFileOutput(downloadFileInput, bytes);
+		System.out.println("test");
 	}
 
 }

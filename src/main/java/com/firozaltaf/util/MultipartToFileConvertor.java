@@ -10,7 +10,7 @@ public class MultipartToFileConvertor {
 	}
 
 	public static File convert(MultipartFile multipartFile) {
-		File file = new File(multipartFile.getOriginalFilename());
+		File file = new File("src/main/resources/static/downloads/" + multipartFile.getOriginalFilename());
 		try {
 			file.createNewFile();
 			FileOutputStream fos = new FileOutputStream(file);

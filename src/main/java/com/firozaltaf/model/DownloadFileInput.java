@@ -10,9 +10,20 @@ public class DownloadFileInput {
 	@Id
 	private String id;
 	private int targetFileId;
+	private String fileName;
+	private String fileType;
+	private int fileSize;
 	private String url;
 	private Date createdDate;
 	private Date updatedDate;
+
+	public int getFileSize() {
+		return fileSize;
+	}
+
+	public void setFileSize(int fileSize) {
+		this.fileSize = fileSize;
+	}
 
 	public String getId() {
 		return id;
@@ -28,6 +39,22 @@ public class DownloadFileInput {
 
 	public void setTargetFileId(int targetFileId) {
 		this.targetFileId = targetFileId;
+	}
+
+	public String getFileName() {
+		return fileName;
+	}
+
+	public void setFileName(String fileName) {
+		this.fileName = fileName;
+	}
+
+	public String getFileType() {
+		return fileType;
+	}
+
+	public void setFileType(String fileType) {
+		this.fileType = fileType;
 	}
 
 	public String getUrl() {
@@ -56,7 +83,8 @@ public class DownloadFileInput {
 
 	@Override
 	public String toString() {
-		return "DownloadFileInput [id=" + id + ", targetFileId=" + targetFileId + ", url=" + url + ", createdDate=" + createdDate + ", updatedDate=" + updatedDate + "]";
+		return "DownloadFileInput [id=" + id + ", targetFileId=" + targetFileId + ", fileName=" + fileName + ", fileType=" + fileType + ", fileSize=" + fileSize + ", url=" + url
+				+ ", createdDate=" + createdDate + ", updatedDate=" + updatedDate + "]";
 	}
 
 }
