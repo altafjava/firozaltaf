@@ -21,6 +21,8 @@ import org.apache.http.util.EntityUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -50,10 +52,10 @@ public class DwgToJpgConvertorService {
 	@Autowired
 	private ConversionDAO conversionDAO;
 
-	public String convertDwgToJpg(MultipartFile multipartFile) {
+	public ResponseEntity<String> convertDwgToJpg(MultipartFile multipartFile) {
 		LOGGER.info("\nCONVERSION_URL=" + CONVERSION_URL + "\n");
-//		String targetFormat = JPG_TARGET_FORMAT;
-		String targetFormat = PDF_TARGET_FORMAT;
+		String targetFormat = JPG_TARGET_FORMAT;
+//		String targetFormat = PDF_TARGET_FORMAT;
 		ConversionInput conversionInput = conversionDAO.saveConversionInput(multipartFile, CONVERSION_URL, targetFormat);
 		HttpEntity requestContent = MultipartEntityBuilder.create().addPart("source_file", new FileBody(conversionInput.getSourceFile()))
 				.addPart("target_format", new StringBody(targetFormat, ContentType.TEXT_PLAIN)).build();
@@ -68,36 +70,42 @@ public class DwgToJpgConvertorService {
 			ConversionResponse conversionResponse = objectMapper.readValue(result, ConversionResponse.class);
 			LOGGER.info("\nconversionResponse=\n" + conversionResponse);
 			conversionDAO.saveConversionOutput(conversionInput, conversionResponse);
-			ConversionStatusResponse conversionStatusResponse = checkConversionStatus(conversionResponse.getId());
+			int count = 0;
+			ConversionStatusResponse conversionStatusResponse = checkConversionStatus(conversionResponse.getId(), count);
 			while (!(conversionStatusResponse.isSandbox() && conversionStatusResponse.getStatus().equalsIgnoreCase("successful"))) {
-				conversionStatusResponse = checkConversionStatus(conversionResponse.getId());
+				conversionStatusResponse = checkConversionStatus(conversionResponse.getId(), ++count);
 			}
+			conversionStatusResponse = checkConversionStatus(conversionResponse.getId(), 0);
 			List<TargetFile> targetFiles = conversionStatusResponse.getTarget_files();
 			for (TargetFile targetFile : targetFiles) {
 				downloadFile(targetFile, conversionStatusResponse.getTarget_format());
 			}
-			return "conversion success";
+			return new ResponseEntity<>("conversion success", HttpStatus.OK);
 		} catch (Exception e) {
 			e.printStackTrace();
 			LOGGER.error(e);
 		}
-		return "conversion failed";
+		return new ResponseEntity<>("conversion failed", HttpStatus.BAD_REQUEST);
 	}
 
-	private ConversionStatusResponse checkConversionStatus(int id) {
+	private ConversionStatusResponse checkConversionStatus(int id, int count) {
 //		id = 7896942;
 		String conversionStatusUrl = CONVERSION_URL + "/" + id;
-		LOGGER.info("\nCONVERSION_STATUS_URL=" + conversionStatusUrl + "\n");
+		if (count == 0)
+			LOGGER.info("\nCONVERSION_STATUS_URL=" + conversionStatusUrl + "\n");
 		ConversionStatusInput conversionStatusInput = conversionDAO.saveConversionStatusInput(id, conversionStatusUrl);
 		HttpGet request = new HttpGet(conversionStatusUrl);
 		ConversionStatusResponse conversionStatusResponse = new ConversionStatusResponse();
 		try (CloseableHttpResponse response = httpClient.execute(request)) {
 			HttpEntity responseContent = response.getEntity();
 			String result = EntityUtils.toString(responseContent, "UTF-8");
-			LOGGER.info("\nconversion status result=\n" + result);
+			if (count == 0)
+				LOGGER.info("\nconversion status result=\n" + result);
 			conversionStatusResponse = objectMapper.readValue(result, ConversionStatusResponse.class);
-			LOGGER.info("\nconversionStatusResponse=\n" + conversionStatusResponse);
-			conversionDAO.saveConversionStatusOutput(conversionStatusInput, conversionStatusResponse);
+			if (count == 0) {
+				LOGGER.info("\nconversionStatusResponse=\n" + conversionStatusResponse);
+				conversionDAO.saveConversionStatusOutput(conversionStatusInput, conversionStatusResponse);
+			}
 		} catch (Exception e) {
 			e.printStackTrace();
 			LOGGER.error(e);

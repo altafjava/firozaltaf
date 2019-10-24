@@ -2220,3 +2220,315 @@ TargetFile [id=58234262, name=srk.pdf, size=56903]
 2019-10-13 07:49:55 PM  INFO alt---[nio-9999-exec-2] o.m.d.connection                         : Opened connection [connectionId{localValue:2, serverValue:71}] to localhost:27017
 2019-10-13 07:50:26 PM  INFO alt---[       Thread-4] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
 2019-10-13 07:50:26 PM  INFO alt---[       Thread-4] o.m.d.connection                         : Closed connection [connectionId{localValue:2, serverValue:71}] to localhost:27017 because the pool has been closed.
+2019-10-24 11:05:07 PM  INFO alt---[           main] c.f.FirozAltafApp                        : Starting FirozAltafApp on alt with PID 7634 (started by alt in /home/alt/New Workspace/FirozAltaf)
+2019-10-24 11:05:07 PM  INFO alt---[           main] c.f.FirozAltafApp                        : No active profile set, falling back to default profiles: default
+2019-10-24 11:05:09 PM  INFO alt---[           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-24 11:05:09 PM  INFO alt---[           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 313ms. Found 7 repository interfaces.
+2019-10-24 11:05:12 PM  INFO alt---[           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 9999 (http)
+2019-10-24 11:05:12 PM  INFO alt---[           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-9999"]
+2019-10-24 11:05:12 PM  INFO alt---[           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-10-24 11:05:12 PM  INFO alt---[           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-24 11:05:12 PM  INFO alt---[           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-10-24 11:05:12 PM  INFO alt---[           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 4671 ms
+2019-10-24 11:05:13 PM  INFO alt---[           main] o.m.d.cluster                            : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-10-24 11:05:13 PM  INFO alt---[           main] o.m.d.cluster                            : Adding discovered server localhost:27017 to client view of cluster
+2019-10-24 11:05:13 PM  INFO alt---[localhost:27017] o.m.d.connection                         : Opened connection [connectionId{localValue:1, serverValue:6}] to localhost:27017
+2019-10-24 11:05:13 PM  INFO alt---[localhost:27017] o.m.d.cluster                            : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 6]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=12911709}
+2019-10-24 11:05:13 PM  INFO alt---[localhost:27017] o.m.d.cluster                            : Discovered cluster type of STANDALONE
+2019-10-24 11:05:13 PM  WARN alt---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-10-24 11:05:13 PM  WARN alt---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-10-24 11:05:13 PM  WARN alt---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-10-24 11:05:13 PM  WARN alt---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-10-24 11:05:14 PM  INFO alt---[           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-24 11:05:14 PM  INFO alt---[           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-9999"]
+2019-10-24 11:05:14 PM  INFO alt---[           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 9999 (http) with context path ''
+2019-10-24 11:05:14 PM  INFO alt---[           main] c.f.FirozAltafApp                        : Started FirozAltafApp in 8.115 seconds (JVM running for 9.42)
+2019-10-24 11:12:08 PM  INFO alt---[nio-9999-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-24 11:12:08 PM  INFO alt---[nio-9999-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2019-10-24 11:12:08 PM  INFO alt---[nio-9999-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 13 ms
+2019-10-24 11:12:08 PM  INFO alt---[nio-9999-exec-2] o.m.d.connection                         : Opened connection [connectionId{localValue:2, serverValue:7}] to localhost:27017
+2019-10-24 11:13:05 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_URL=https://sandbox.zamzar.com/v1/jobs
+
+2019-10-24 11:15:02 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversion result=
+{"id":8121435,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"initialising","sandbox":true,"created_at":"2019-10-24T17:45:02Z","finished_at":null,"source_file":{"id":59166081,"name":"building.dwg","size":402066},"target_files":[],"target_format":"jpg","credit_cost":2}
+2019-10-24 11:15:02 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversionResponse=
+ConversionOutput [id=8121435, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=initialising, sandbox=true, created_at=2019-10-24T17:45:02Z, finished_at=null, source_file=SourceFile [id=59166081, name=building.dwg, size=402066], target_files=[], target_format=jpg, credit_cost=2]
+2019-10-24 11:15:02 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8121435
+
+2019-10-24 11:15:03 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8121435,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"initialising","sandbox":true,"created_at":"2019-10-24T17:45:02Z","finished_at":null,"source_file":{"id":59166081,"name":"building.dwg","size":402066},"target_files":[],"target_format":"jpg","credit_cost":2}
+2019-10-24 11:15:03 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8121435, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=initialising, sandbox=true, created_at=2019-10-24T17:45:02Z, finished_at=null, source_file=SourceFile [id=59166081, name=building.dwg, size=402066], target_files=[], target_format=jpg, credit_cost=2]
+2019-10-24 11:15:03 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8121435
+
+2019-10-24 11:15:05 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8121435,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"initialising","sandbox":true,"created_at":"2019-10-24T17:45:02Z","finished_at":null,"source_file":{"id":59166081,"name":"building.dwg","size":402066},"target_files":[],"target_format":"jpg","credit_cost":2}
+2019-10-24 11:15:05 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8121435, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=initialising, sandbox=true, created_at=2019-10-24T17:45:02Z, finished_at=null, source_file=SourceFile [id=59166081, name=building.dwg, size=402066], target_files=[], target_format=jpg, credit_cost=2]
+2019-10-24 11:15:05 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8121435
+
+2019-10-24 11:15:06 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8121435,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"initialising","sandbox":true,"created_at":"2019-10-24T17:45:02Z","finished_at":null,"source_file":{"id":59166081,"name":"building.dwg","size":402066},"target_files":[],"target_format":"jpg","credit_cost":2}
+2019-10-24 11:15:06 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8121435, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=initialising, sandbox=true, created_at=2019-10-24T17:45:02Z, finished_at=null, source_file=SourceFile [id=59166081, name=building.dwg, size=402066], target_files=[], target_format=jpg, credit_cost=2]
+2019-10-24 11:15:06 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8121435
+
+2019-10-24 11:15:06 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8121435,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"initialising","sandbox":true,"created_at":"2019-10-24T17:45:02Z","finished_at":null,"source_file":{"id":59166081,"name":"building.dwg","size":402066},"target_files":[],"target_format":"jpg","credit_cost":2}
+2019-10-24 11:15:06 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8121435, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=initialising, sandbox=true, created_at=2019-10-24T17:45:02Z, finished_at=null, source_file=SourceFile [id=59166081, name=building.dwg, size=402066], target_files=[], target_format=jpg, credit_cost=2]
+2019-10-24 11:15:06 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8121435
+
+2019-10-24 11:15:07 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8121435,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"initialising","sandbox":true,"created_at":"2019-10-24T17:45:02Z","finished_at":null,"source_file":{"id":59166081,"name":"building.dwg","size":402066},"target_files":[],"target_format":"jpg","credit_cost":2}
+2019-10-24 11:15:07 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8121435, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=initialising, sandbox=true, created_at=2019-10-24T17:45:02Z, finished_at=null, source_file=SourceFile [id=59166081, name=building.dwg, size=402066], target_files=[], target_format=jpg, credit_cost=2]
+2019-10-24 11:15:08 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8121435
+
+2019-10-24 11:15:08 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8121435,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"initialising","sandbox":true,"created_at":"2019-10-24T17:45:02Z","finished_at":null,"source_file":{"id":59166081,"name":"building.dwg","size":402066},"target_files":[],"target_format":"jpg","credit_cost":2}
+2019-10-24 11:15:08 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8121435, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=initialising, sandbox=true, created_at=2019-10-24T17:45:02Z, finished_at=null, source_file=SourceFile [id=59166081, name=building.dwg, size=402066], target_files=[], target_format=jpg, credit_cost=2]
+2019-10-24 11:15:09 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8121435
+
+2019-10-24 11:15:09 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8121435,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"initialising","sandbox":true,"created_at":"2019-10-24T17:45:02Z","finished_at":null,"source_file":{"id":59166081,"name":"building.dwg","size":402066},"target_files":[],"target_format":"jpg","credit_cost":2}
+2019-10-24 11:15:09 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8121435, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=initialising, sandbox=true, created_at=2019-10-24T17:45:02Z, finished_at=null, source_file=SourceFile [id=59166081, name=building.dwg, size=402066], target_files=[], target_format=jpg, credit_cost=2]
+2019-10-24 11:15:09 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8121435
+
+2019-10-24 11:15:10 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8121435,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"initialising","sandbox":true,"created_at":"2019-10-24T17:45:02Z","finished_at":null,"source_file":{"id":59166081,"name":"building.dwg","size":402066},"target_files":[],"target_format":"jpg","credit_cost":2}
+2019-10-24 11:15:10 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8121435, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=initialising, sandbox=true, created_at=2019-10-24T17:45:02Z, finished_at=null, source_file=SourceFile [id=59166081, name=building.dwg, size=402066], target_files=[], target_format=jpg, credit_cost=2]
+2019-10-24 11:15:10 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8121435
+
+2019-10-24 11:15:11 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8121435,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"converting","sandbox":true,"created_at":"2019-10-24T17:45:02Z","finished_at":null,"source_file":{"id":59166081,"name":"building.dwg","size":402066},"target_files":[],"target_format":"jpg","credit_cost":2}
+2019-10-24 11:15:11 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8121435, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=converting, sandbox=true, created_at=2019-10-24T17:45:02Z, finished_at=null, source_file=SourceFile [id=59166081, name=building.dwg, size=402066], target_files=[], target_format=jpg, credit_cost=2]
+2019-10-24 11:15:11 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8121435
+
+2019-10-24 11:15:12 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8121435,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"converting","sandbox":true,"created_at":"2019-10-24T17:45:02Z","finished_at":null,"source_file":{"id":59166081,"name":"building.dwg","size":402066},"target_files":[],"target_format":"jpg","credit_cost":2}
+2019-10-24 11:15:12 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8121435, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=converting, sandbox=true, created_at=2019-10-24T17:45:02Z, finished_at=null, source_file=SourceFile [id=59166081, name=building.dwg, size=402066], target_files=[], target_format=jpg, credit_cost=2]
+2019-10-24 11:15:12 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8121435
+
+2019-10-24 11:15:13 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8121435,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"converting","sandbox":true,"created_at":"2019-10-24T17:45:02Z","finished_at":null,"source_file":{"id":59166081,"name":"building.dwg","size":402066},"target_files":[],"target_format":"jpg","credit_cost":2}
+2019-10-24 11:15:13 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8121435, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=converting, sandbox=true, created_at=2019-10-24T17:45:02Z, finished_at=null, source_file=SourceFile [id=59166081, name=building.dwg, size=402066], target_files=[], target_format=jpg, credit_cost=2]
+2019-10-24 11:15:13 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8121435
+
+2019-10-24 11:15:14 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8121435,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"converting","sandbox":true,"created_at":"2019-10-24T17:45:02Z","finished_at":null,"source_file":{"id":59166081,"name":"building.dwg","size":402066},"target_files":[],"target_format":"jpg","credit_cost":2}
+2019-10-24 11:15:14 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8121435, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=converting, sandbox=true, created_at=2019-10-24T17:45:02Z, finished_at=null, source_file=SourceFile [id=59166081, name=building.dwg, size=402066], target_files=[], target_format=jpg, credit_cost=2]
+2019-10-24 11:15:14 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8121435
+
+2019-10-24 11:15:15 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8121435,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"converting","sandbox":true,"created_at":"2019-10-24T17:45:02Z","finished_at":null,"source_file":{"id":59166081,"name":"building.dwg","size":402066},"target_files":[],"target_format":"jpg","credit_cost":2}
+2019-10-24 11:15:15 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8121435, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=converting, sandbox=true, created_at=2019-10-24T17:45:02Z, finished_at=null, source_file=SourceFile [id=59166081, name=building.dwg, size=402066], target_files=[], target_format=jpg, credit_cost=2]
+2019-10-24 11:15:15 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8121435
+
+2019-10-24 11:15:16 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8121435,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"converting","sandbox":true,"created_at":"2019-10-24T17:45:02Z","finished_at":null,"source_file":{"id":59166081,"name":"building.dwg","size":402066},"target_files":[],"target_format":"jpg","credit_cost":2}
+2019-10-24 11:15:16 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8121435, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=converting, sandbox=true, created_at=2019-10-24T17:45:02Z, finished_at=null, source_file=SourceFile [id=59166081, name=building.dwg, size=402066], target_files=[], target_format=jpg, credit_cost=2]
+2019-10-24 11:15:16 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8121435
+
+2019-10-24 11:15:18 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8121435,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"converting","sandbox":true,"created_at":"2019-10-24T17:45:02Z","finished_at":null,"source_file":{"id":59166081,"name":"building.dwg","size":402066},"target_files":[],"target_format":"jpg","credit_cost":2}
+2019-10-24 11:15:18 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8121435, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=converting, sandbox=true, created_at=2019-10-24T17:45:02Z, finished_at=null, source_file=SourceFile [id=59166081, name=building.dwg, size=402066], target_files=[], target_format=jpg, credit_cost=2]
+2019-10-24 11:15:18 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8121435
+
+2019-10-24 11:15:19 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8121435,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"converting","sandbox":true,"created_at":"2019-10-24T17:45:02Z","finished_at":null,"source_file":{"id":59166081,"name":"building.dwg","size":402066},"target_files":[],"target_format":"jpg","credit_cost":2}
+2019-10-24 11:15:19 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8121435, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=converting, sandbox=true, created_at=2019-10-24T17:45:02Z, finished_at=null, source_file=SourceFile [id=59166081, name=building.dwg, size=402066], target_files=[], target_format=jpg, credit_cost=2]
+2019-10-24 11:15:19 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8121435
+
+2019-10-24 11:15:19 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8121435,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"converting","sandbox":true,"created_at":"2019-10-24T17:45:02Z","finished_at":null,"source_file":{"id":59166081,"name":"building.dwg","size":402066},"target_files":[],"target_format":"jpg","credit_cost":2}
+2019-10-24 11:15:19 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8121435, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=converting, sandbox=true, created_at=2019-10-24T17:45:02Z, finished_at=null, source_file=SourceFile [id=59166081, name=building.dwg, size=402066], target_files=[], target_format=jpg, credit_cost=2]
+2019-10-24 11:15:19 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8121435
+
+2019-10-24 11:15:20 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8121435,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"converting","sandbox":true,"created_at":"2019-10-24T17:45:02Z","finished_at":null,"source_file":{"id":59166081,"name":"building.dwg","size":402066},"target_files":[],"target_format":"jpg","credit_cost":2}
+2019-10-24 11:15:20 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8121435, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=converting, sandbox=true, created_at=2019-10-24T17:45:02Z, finished_at=null, source_file=SourceFile [id=59166081, name=building.dwg, size=402066], target_files=[], target_format=jpg, credit_cost=2]
+2019-10-24 11:15:20 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8121435
+
+2019-10-24 11:15:21 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8121435,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"converting","sandbox":true,"created_at":"2019-10-24T17:45:02Z","finished_at":null,"source_file":{"id":59166081,"name":"building.dwg","size":402066},"target_files":[],"target_format":"jpg","credit_cost":2}
+2019-10-24 11:15:21 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8121435, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=converting, sandbox=true, created_at=2019-10-24T17:45:02Z, finished_at=null, source_file=SourceFile [id=59166081, name=building.dwg, size=402066], target_files=[], target_format=jpg, credit_cost=2]
+2019-10-24 11:15:21 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8121435
+
+2019-10-24 11:15:22 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8121435,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"converting","sandbox":true,"created_at":"2019-10-24T17:45:02Z","finished_at":null,"source_file":{"id":59166081,"name":"building.dwg","size":402066},"target_files":[],"target_format":"jpg","credit_cost":2}
+2019-10-24 11:15:22 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8121435, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=converting, sandbox=true, created_at=2019-10-24T17:45:02Z, finished_at=null, source_file=SourceFile [id=59166081, name=building.dwg, size=402066], target_files=[], target_format=jpg, credit_cost=2]
+2019-10-24 11:15:22 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8121435
+
+2019-10-24 11:15:23 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8121435,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"converting","sandbox":true,"created_at":"2019-10-24T17:45:02Z","finished_at":null,"source_file":{"id":59166081,"name":"building.dwg","size":402066},"target_files":[],"target_format":"jpg","credit_cost":2}
+2019-10-24 11:15:23 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8121435, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=converting, sandbox=true, created_at=2019-10-24T17:45:02Z, finished_at=null, source_file=SourceFile [id=59166081, name=building.dwg, size=402066], target_files=[], target_format=jpg, credit_cost=2]
+2019-10-24 11:15:23 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8121435
+
+2019-10-24 11:15:23 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8121435,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"converting","sandbox":true,"created_at":"2019-10-24T17:45:02Z","finished_at":null,"source_file":{"id":59166081,"name":"building.dwg","size":402066},"target_files":[],"target_format":"jpg","credit_cost":2}
+2019-10-24 11:15:23 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8121435, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=converting, sandbox=true, created_at=2019-10-24T17:45:02Z, finished_at=null, source_file=SourceFile [id=59166081, name=building.dwg, size=402066], target_files=[], target_format=jpg, credit_cost=2]
+2019-10-24 11:15:23 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8121435
+
+2019-10-24 11:15:25 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8121435,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"converting","sandbox":true,"created_at":"2019-10-24T17:45:02Z","finished_at":null,"source_file":{"id":59166081,"name":"building.dwg","size":402066},"target_files":[],"target_format":"jpg","credit_cost":2}
+2019-10-24 11:15:25 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8121435, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=converting, sandbox=true, created_at=2019-10-24T17:45:02Z, finished_at=null, source_file=SourceFile [id=59166081, name=building.dwg, size=402066], target_files=[], target_format=jpg, credit_cost=2]
+2019-10-24 11:15:25 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8121435
+
+2019-10-24 11:15:26 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8121435,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"converting","sandbox":true,"created_at":"2019-10-24T17:45:02Z","finished_at":null,"source_file":{"id":59166081,"name":"building.dwg","size":402066},"target_files":[],"target_format":"jpg","credit_cost":2}
+2019-10-24 11:15:26 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8121435, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=converting, sandbox=true, created_at=2019-10-24T17:45:02Z, finished_at=null, source_file=SourceFile [id=59166081, name=building.dwg, size=402066], target_files=[], target_format=jpg, credit_cost=2]
+2019-10-24 11:15:26 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8121435
+
+2019-10-24 11:15:27 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8121435,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"converting","sandbox":true,"created_at":"2019-10-24T17:45:02Z","finished_at":null,"source_file":{"id":59166081,"name":"building.dwg","size":402066},"target_files":[],"target_format":"jpg","credit_cost":2}
+2019-10-24 11:15:27 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8121435, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=converting, sandbox=true, created_at=2019-10-24T17:45:02Z, finished_at=null, source_file=SourceFile [id=59166081, name=building.dwg, size=402066], target_files=[], target_format=jpg, credit_cost=2]
+2019-10-24 11:15:27 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8121435
+
+2019-10-24 11:15:28 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8121435,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"converting","sandbox":true,"created_at":"2019-10-24T17:45:02Z","finished_at":null,"source_file":{"id":59166081,"name":"building.dwg","size":402066},"target_files":[],"target_format":"jpg","credit_cost":2}
+2019-10-24 11:15:28 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8121435, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=converting, sandbox=true, created_at=2019-10-24T17:45:02Z, finished_at=null, source_file=SourceFile [id=59166081, name=building.dwg, size=402066], target_files=[], target_format=jpg, credit_cost=2]
+2019-10-24 11:15:28 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8121435
+
+2019-10-24 11:15:29 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8121435,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"converting","sandbox":true,"created_at":"2019-10-24T17:45:02Z","finished_at":null,"source_file":{"id":59166081,"name":"building.dwg","size":402066},"target_files":[],"target_format":"jpg","credit_cost":2}
+2019-10-24 11:15:29 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8121435, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=converting, sandbox=true, created_at=2019-10-24T17:45:02Z, finished_at=null, source_file=SourceFile [id=59166081, name=building.dwg, size=402066], target_files=[], target_format=jpg, credit_cost=2]
+2019-10-24 11:15:29 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8121435
+
+2019-10-24 11:15:30 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8121435,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"converting","sandbox":true,"created_at":"2019-10-24T17:45:02Z","finished_at":null,"source_file":{"id":59166081,"name":"building.dwg","size":402066},"target_files":[],"target_format":"jpg","credit_cost":2}
+2019-10-24 11:15:30 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8121435, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=converting, sandbox=true, created_at=2019-10-24T17:45:02Z, finished_at=null, source_file=SourceFile [id=59166081, name=building.dwg, size=402066], target_files=[], target_format=jpg, credit_cost=2]
+2019-10-24 11:15:30 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8121435
+
+2019-10-24 11:15:31 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8121435,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"successful","sandbox":true,"created_at":"2019-10-24T17:45:02Z","finished_at":"2019-10-24T17:45:29Z","source_file":{"id":59166081,"name":"building.dwg","size":402066},"target_files":[{"id":59166087,"name":"building.Layout1.jpg","size":3542523},{"id":59166088,"name":"building.Model.jpg","size":3383506},{"id":59166089,"name":"building.zip","size":3814151}],"target_format":"jpg","credit_cost":2}
+2019-10-24 11:15:31 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8121435, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=successful, sandbox=true, created_at=2019-10-24T17:45:02Z, finished_at=2019-10-24T17:45:29Z, source_file=SourceFile [id=59166081, name=building.dwg, size=402066], target_files=[TargetFile [id=59166087, name=building.Layout1.jpg, size=3542523], TargetFile [id=59166088, name=building.Model.jpg, size=3383506], TargetFile [id=59166089, name=building.zip, size=3814151]], target_format=jpg, credit_cost=2]
+2019-10-24 11:15:31 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+DOWNLOAD_FILE_URL=https://sandbox.zamzar.com/v1/files/59166087/content
+2019-10-24 11:16:48 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+File downloaded=
+TargetFile [id=59166087, name=building.Layout1.jpg, size=3542523]
+2019-10-24 11:16:48 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+DOWNLOAD_FILE_URL=https://sandbox.zamzar.com/v1/files/59166088/content
+2019-10-24 11:18:33 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+File downloaded=
+TargetFile [id=59166088, name=building.Model.jpg, size=3383506]
+2019-10-24 11:18:33 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+DOWNLOAD_FILE_URL=https://sandbox.zamzar.com/v1/files/59166089/content
+2019-10-24 11:19:29 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+File downloaded=
+TargetFile [id=59166089, name=building.zip, size=3814151]
