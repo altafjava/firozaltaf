@@ -16,7 +16,7 @@ public class DwgToJpgConvertorController {
 	private DwgToJpgConvertorService dwgToJpgConvertorService;
 
 	@PostMapping("/convert/dwg-jpg")
-	public ResponseEntity<String> convertDwgToJpg(@RequestParam MultipartFile file) {
+	public ResponseEntity<?> convertDwgToJpg(@RequestParam MultipartFile file) {
 		return dwgToJpgConvertorService.convertDwgToJpg(file);
 	}
 

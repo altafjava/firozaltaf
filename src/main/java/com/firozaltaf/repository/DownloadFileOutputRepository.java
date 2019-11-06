@@ -7,4 +7,5 @@ import com.firozaltaf.model.DownloadFileOutput;
 @Repository
 public interface DownloadFileOutputRepository extends MongoRepository<DownloadFileOutput, String> {
 
+	DownloadFileOutput findFirstByFileName(String fileName);
 }

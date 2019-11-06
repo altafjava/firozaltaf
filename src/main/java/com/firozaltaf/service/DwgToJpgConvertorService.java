@@ -2,11 +2,10 @@ package com.firozaltaf.service;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
+import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.List;
 import org.apache.http.HttpEntity;
 import org.apache.http.client.methods.CloseableHttpResponse;
@@ -21,7 +20,10 @@ import org.apache.http.util.EntityUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
@@ -33,6 +35,8 @@ import com.firozaltaf.mc.TargetFile;
 import com.firozaltaf.model.ConversionInput;
 import com.firozaltaf.model.ConversionStatusInput;
 import com.firozaltaf.model.DownloadFileInput;
+import com.firozaltaf.model.DownloadFileOutput;
+import com.firozaltaf.repository.DownloadFileOutputRepository;
 
 @Service
 public class DwgToJpgConvertorService {
@@ -43,7 +47,7 @@ public class DwgToJpgConvertorService {
 	private static final String DOWNLOAD_FILE_URL = "https://sandbox.zamzar.com/v1/files/{TARGET_FILE_ID}/content";
 	private static final String JPG_TARGET_FORMAT = "jpg";
 //	private static final String PNG_TARGET_FORMAT = "png";
-	private static final String PDF_TARGET_FORMAT = "pdf";
+//	private static final String PDF_TARGET_FORMAT = "pdf";
 
 	@Autowired
 	private CloseableHttpClient httpClient;
@@ -51,39 +55,64 @@ public class DwgToJpgConvertorService {
 	private ObjectMapper objectMapper;
 	@Autowired
 	private ConversionDAO conversionDAO;
+	@Autowired
+	private DownloadFileOutputRepository downloadFileOutputRepository;
 
-	public ResponseEntity<String> convertDwgToJpg(MultipartFile multipartFile) {
-		LOGGER.info("\nCONVERSION_URL=" + CONVERSION_URL + "\n");
-		String targetFormat = JPG_TARGET_FORMAT;
-//		String targetFormat = PDF_TARGET_FORMAT;
-		ConversionInput conversionInput = conversionDAO.saveConversionInput(multipartFile, CONVERSION_URL, targetFormat);
-		HttpEntity requestContent = MultipartEntityBuilder.create().addPart("source_file", new FileBody(conversionInput.getSourceFile()))
-				.addPart("target_format", new StringBody(targetFormat, ContentType.TEXT_PLAIN)).build();
-		HttpPost request = new HttpPost(CONVERSION_URL);
-		request.setEntity(requestContent);
-		try {
-//			CloseableHttpResponse response = httpClient.execute(request);
-//			HttpEntity responseContent = response.getEntity();
-//			String result = EntityUtils.toString(responseContent, "UTF-8");
-			String result = "{\"id\":7903786,\"key\":\"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7\",\"status\":\"initialising\",\"sandbox\":true,\"created_at\":\"2019-10-13T07:59:04Z\",\"finished_at\":null,\"source_file\":{\"id\":58234259,\"name\":\"srk.jpg\",\"size\":41911},\"target_files\":[],\"target_format\":\"pdf\",\"credit_cost\":1}";
-			LOGGER.info("\nconversion result=\n" + result);
-			ConversionResponse conversionResponse = objectMapper.readValue(result, ConversionResponse.class);
-			LOGGER.info("\nconversionResponse=\n" + conversionResponse);
-			conversionDAO.saveConversionOutput(conversionInput, conversionResponse);
-			int count = 0;
-			ConversionStatusResponse conversionStatusResponse = checkConversionStatus(conversionResponse.getId(), count);
-			while (!(conversionStatusResponse.isSandbox() && conversionStatusResponse.getStatus().equalsIgnoreCase("successful"))) {
-				conversionStatusResponse = checkConversionStatus(conversionResponse.getId(), ++count);
+	public ResponseEntity<?> convertDwgToJpg(MultipartFile multipartFile) {
+		String originaFileName = multipartFile.getOriginalFilename();
+		String fileName = originaFileName.replace(".dwg", ".jpg");
+		// First check the file is available in DB or not. If it is not available then Hit the Zamzar API. Else goto DB and get the data and return JPG
+		DownloadFileOutput downloadFileOutput = downloadFileOutputRepository.findFirstByFileName(fileName);
+
+		if (downloadFileOutput == null) {
+			LOGGER.info("\nCONVERSION_URL=" + CONVERSION_URL + "\n");
+			String targetFormat = JPG_TARGET_FORMAT;
+			ConversionInput conversionInput = conversionDAO.saveConversionInput(multipartFile, CONVERSION_URL, targetFormat);
+			HttpEntity requestContent = MultipartEntityBuilder.create().addPart("source_file", new FileBody(conversionInput.getSourceFile()))
+					.addPart("target_format", new StringBody(targetFormat, ContentType.TEXT_PLAIN)).build();
+			HttpPost request = new HttpPost(CONVERSION_URL);
+			request.setEntity(requestContent);
+			try {
+//				CloseableHttpResponse response = httpClient.execute(request);
+//				HttpEntity responseContent = response.getEntity();
+//				String result = EntityUtils.toString(responseContent, "UTF-8");
+				String result = "{\"id\":8342355,\"key\":\"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7\",\"status\":\"initialising\",\"sandbox\":true,\"created_at\":\"2019-11-06T16:13:18Z\",\"finished_at\":null,\"source_file\":{\"id\":60115720,\"name\":\"77-4 TEST LEADS.dwg\",\"size\":31000},\"target_files\":[],\"target_format\":\"jpg\",\"credit_cost\":2}";
+				LOGGER.info("\nconversion result=\n" + result);
+				ConversionResponse conversionResponse = objectMapper.readValue(result, ConversionResponse.class);
+				LOGGER.info("\nconversionResponse=\n" + conversionResponse);
+				conversionDAO.saveConversionOutput(conversionInput, conversionResponse);
+				int count = 0;
+				ConversionStatusResponse conversionStatusResponse = checkConversionStatus(conversionResponse.getId(), count);
+				while (!(conversionStatusResponse.isSandbox() && conversionStatusResponse.getStatus().equalsIgnoreCase("successful"))) {
+					conversionStatusResponse = checkConversionStatus(conversionResponse.getId(), ++count);
+				}
+				conversionStatusResponse = checkConversionStatus(conversionResponse.getId(), 0);
+				List<TargetFile> targetFiles = conversionStatusResponse.getTarget_files();
+//				for (TargetFile targetFile : targetFiles) {
+//					String path=downloadFileFromZamzar(targetFile, conversionStatusResponse.getTarget_format());
+//				}
+				String targetFileName = downloadFileFromZamzar(targetFiles.get(0), conversionStatusResponse.getTarget_format());
+				Resource resource = new ClassPathResource("static/downloads/" + targetFileName);
+				return ResponseEntity.ok().contentType(MediaType.IMAGE_JPEG).body(resource);
+			} catch (Exception e) {
+				e.printStackTrace();
+				LOGGER.error(e);
 			}
-			conversionStatusResponse = checkConversionStatus(conversionResponse.getId(), 0);
-			List<TargetFile> targetFiles = conversionStatusResponse.getTarget_files();
-			for (TargetFile targetFile : targetFiles) {
-				downloadFile(targetFile, conversionStatusResponse.getTarget_format());
+		} else {
+			byte[] b = downloadFileOutput.getBytes();
+			String classpath = "src/main/resources/";
+			String path = "static/downloads/" + downloadFileOutput.getFileName();
+			File f = new File(classpath + path);
+			try {
+				f.createNewFile();
+				FileOutputStream fos = new FileOutputStream(f);
+				fos.write(b);
+				fos.close();
+				Resource resource = new ClassPathResource(path);
+				return ResponseEntity.ok().contentType(MediaType.IMAGE_JPEG).body(resource);
+			} catch (IOException e) {
+				e.printStackTrace();
 			}
-			return new ResponseEntity<>("conversion success", HttpStatus.OK);
-		} catch (Exception e) {
-			e.printStackTrace();
-			LOGGER.error(e);
 		}
 		return new ResponseEntity<>("conversion failed", HttpStatus.BAD_REQUEST);
 	}
@@ -114,7 +143,7 @@ public class DwgToJpgConvertorService {
 		return conversionStatusResponse;
 	}
 
-	private void downloadFile(TargetFile targetFile, String fileType) {
+	private String downloadFileFromZamzar(TargetFile targetFile, String fileType) {
 		String path = "src/main/resources/static/downloads/" + targetFile.getName();
 		int targetFileId = targetFile.getId();
 		String downloadFileUrl = DOWNLOAD_FILE_URL.replace("{TARGET_FILE_ID}", targetFileId + "");
@@ -123,7 +152,8 @@ public class DwgToJpgConvertorService {
 		HttpGet request = new HttpGet(downloadFileUrl);
 		try (CloseableHttpResponse response = httpClient.execute(request)) {
 			HttpEntity httpEntity = response.getEntity();
-			try (BufferedInputStream bis = new BufferedInputStream(httpEntity.getContent()); BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream(path))) {
+			try (BufferedInputStream bis = new BufferedInputStream(httpEntity.getContent());
+					BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream(path))) {
 				int inByte;
 				while ((inByte = bis.read()) != -1) {
 					bos.write(inByte);
@@ -147,7 +177,7 @@ public class DwgToJpgConvertorService {
 			e.printStackTrace();
 		}
 		conversionDAO.saveDownloadFileOutput(downloadFileInput, bytes);
-		System.out.println("test");
+		return targetFile.getName();
 	}
 
 }

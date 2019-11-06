@@ -41,7 +41,7 @@ public class DownloadController {
 		fos.write(b);
 		fos.close();
 		Resource resource = new ClassPathResource(path);
-		return ResponseEntity.ok().contentType(MediaType.APPLICATION_PDF).body(resource);
+		return ResponseEntity.ok().contentType(MediaType.IMAGE_JPEG).body(resource);
 	}
 
 	@GetMapping("/jpg")

@@ -2532,3 +2532,922 @@ DOWNLOAD_FILE_URL=https://sandbox.zamzar.com/v1/files/59166089/content
 2019-10-24 11:19:29 PM  INFO alt---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
 File downloaded=
 TargetFile [id=59166089, name=building.zip, size=3814151]
+2019-11-06 04:03:55 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : Starting FirozAltafApp on DESKTOP-K2V0HMH with PID 12004 (started by Altaf in D:\GroupBima\My Workspace\firozaltaf)
+2019-11-06 04:03:55 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : No active profile set, falling back to default profiles: default
+2019-11-06 04:03:56 PM  INFO DESKTOP-K2V0HMH---[           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-06 04:03:56 PM  INFO DESKTOP-K2V0HMH---[           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52ms. Found 7 repository interfaces.
+2019-11-06 04:03:57 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 9999 (http)
+2019-11-06 04:03:57 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-9999"]
+2019-11-06 04:03:57 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-11-06 04:03:57 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-06 04:03:57 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-11-06 04:03:57 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1506 ms
+2019-11-06 04:03:57 PM  INFO DESKTOP-K2V0HMH---[           main] o.m.d.cluster                            : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-11-06 04:03:57 PM  INFO DESKTOP-K2V0HMH---[           main] o.m.d.cluster                            : Adding discovered server localhost:27017 to client view of cluster
+2019-11-06 04:03:58 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 04:03:58 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 04:03:58 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 04:03:58 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 04:03:58 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-06 04:03:58 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.connection                         : Opened connection [connectionId{localValue:1, serverValue:30}] to localhost:27017
+2019-11-06 04:03:58 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.cluster                            : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 9]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3056835}
+2019-11-06 04:03:58 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.cluster                            : Discovered cluster type of STANDALONE
+2019-11-06 04:03:58 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-9999"]
+2019-11-06 04:03:58 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 9999 (http) with context path ''
+2019-11-06 04:03:58 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : Started FirozAltafApp in 3.303 seconds (JVM running for 4.099)
+2019-11-06 04:04:12 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-06 04:04:12 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2019-11-06 04:04:12 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 5 ms
+2019-11-06 04:04:12 PM  WARN DESKTOP-K2V0HMH---[nio-9999-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.multipart.support.MissingServletRequestPartException: Required request part 'file' is not present]
+2019-11-06 04:12:37 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_URL=https://sandbox.zamzar.com/v1/jobs
+
+2019-11-06 04:12:38 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-3] o.m.d.connection                         : Opened connection [connectionId{localValue:2, serverValue:47}] to localhost:27017
+2019-11-06 04:13:18 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversion result=
+{"id":8342355,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"initialising","sandbox":true,"created_at":"2019-11-06T16:13:18Z","finished_at":null,"source_file":{"id":60115720,"name":"77-4 TEST LEADS.dwg","size":31000},"target_files":[],"target_format":"jpg","credit_cost":2}
+2019-11-06 04:13:18 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversionResponse=
+ConversionOutput [id=8342355, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=initialising, sandbox=true, created_at=2019-11-06T16:13:18Z, finished_at=null, source_file=SourceFile [id=60115720, name=77-4 TEST LEADS.dwg, size=31000], target_files=[], target_format=jpg, credit_cost=2]
+2019-11-06 04:13:18 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8342355
+
+2019-11-06 04:13:21 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8342355,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"converting","sandbox":true,"created_at":"2019-11-06T16:13:18Z","finished_at":null,"source_file":{"id":60115720,"name":"77-4 TEST LEADS.dwg","size":31000},"target_files":[],"target_format":"jpg","credit_cost":2}
+2019-11-06 04:13:21 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8342355, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=converting, sandbox=true, created_at=2019-11-06T16:13:18Z, finished_at=null, source_file=SourceFile [id=60115720, name=77-4 TEST LEADS.dwg, size=31000], target_files=[], target_format=jpg, credit_cost=2]
+2019-11-06 04:13:31 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8342355
+
+2019-11-06 04:13:32 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8342355,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"successful","sandbox":true,"created_at":"2019-11-06T16:13:18Z","finished_at":"2019-11-06T16:13:30Z","source_file":{"id":60115720,"name":"77-4 TEST LEADS.dwg","size":31000},"target_files":[{"id":60115747,"name":"77-4 TEST LEADS.jpg","size":624434}],"target_format":"jpg","credit_cost":2}
+2019-11-06 04:13:32 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8342355, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=successful, sandbox=true, created_at=2019-11-06T16:13:18Z, finished_at=2019-11-06T16:13:30Z, source_file=SourceFile [id=60115720, name=77-4 TEST LEADS.dwg, size=31000], target_files=[TargetFile [id=60115747, name=77-4 TEST LEADS.jpg, size=624434]], target_format=jpg, credit_cost=2]
+2019-11-06 04:13:32 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+DOWNLOAD_FILE_URL=https://sandbox.zamzar.com/v1/files/60115747/content
+2019-11-06 04:13:59 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+File downloaded=
+TargetFile [id=60115747, name=77-4 TEST LEADS.jpg, size=624434]
+2019-11-06 04:41:35 PM  INFO DESKTOP-K2V0HMH---[n(40)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-11-06 04:41:35 PM  INFO DESKTOP-K2V0HMH---[n(40)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-06 04:41:35 PM  INFO DESKTOP-K2V0HMH---[n(40)-127.0.0.1] o.m.d.connection                         : Closed connection [connectionId{localValue:2, serverValue:47}] to localhost:27017 because the pool has been closed.
+2019-11-06 04:41:39 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : Starting FirozAltafApp on DESKTOP-K2V0HMH with PID 5132 (started by Altaf in D:\GroupBima\My Workspace\firozaltaf)
+2019-11-06 04:41:39 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : No active profile set, falling back to default profiles: default
+2019-11-06 04:41:40 PM  INFO DESKTOP-K2V0HMH---[           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-06 04:41:40 PM  INFO DESKTOP-K2V0HMH---[           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55ms. Found 7 repository interfaces.
+2019-11-06 04:41:40 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 9999 (http)
+2019-11-06 04:41:40 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-9999"]
+2019-11-06 04:41:40 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-11-06 04:41:40 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-06 04:41:40 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-11-06 04:41:40 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 917 ms
+2019-11-06 04:41:41 PM  INFO DESKTOP-K2V0HMH---[           main] o.m.d.cluster                            : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-11-06 04:41:41 PM  INFO DESKTOP-K2V0HMH---[           main] o.m.d.cluster                            : Adding discovered server localhost:27017 to client view of cluster
+2019-11-06 04:41:41 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.connection                         : Opened connection [connectionId{localValue:1, serverValue:110}] to localhost:27017
+2019-11-06 04:41:41 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.cluster                            : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 9]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2442576}
+2019-11-06 04:41:41 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.cluster                            : Discovered cluster type of STANDALONE
+2019-11-06 04:41:41 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 04:41:41 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 04:41:41 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 04:41:41 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 04:41:41 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-06 04:41:41 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-9999"]
+2019-11-06 04:41:41 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 9999 (http) with context path ''
+2019-11-06 04:41:41 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : Started FirozAltafApp in 2.273 seconds (JVM running for 3.016)
+2019-11-06 04:41:47 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-06 04:41:47 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2019-11-06 04:41:47 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 5 ms
+2019-11-06 04:41:47 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] o.m.d.connection                         : Opened connection [connectionId{localValue:2, serverValue:111}] to localhost:27017
+2019-11-06 04:42:38 PM  INFO DESKTOP-K2V0HMH---[on(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-11-06 04:42:38 PM  INFO DESKTOP-K2V0HMH---[on(3)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-06 04:42:38 PM  INFO DESKTOP-K2V0HMH---[on(3)-127.0.0.1] o.m.d.connection                         : Closed connection [connectionId{localValue:2, serverValue:111}] to localhost:27017 because the pool has been closed.
+2019-11-06 04:43:30 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : Starting FirozAltafApp on DESKTOP-K2V0HMH with PID 9472 (started by Altaf in D:\GroupBima\My Workspace\firozaltaf)
+2019-11-06 04:43:30 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : No active profile set, falling back to default profiles: default
+2019-11-06 04:43:31 PM  INFO DESKTOP-K2V0HMH---[           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-06 04:43:31 PM  INFO DESKTOP-K2V0HMH---[           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71ms. Found 7 repository interfaces.
+2019-11-06 04:43:31 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 9999 (http)
+2019-11-06 04:43:31 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-9999"]
+2019-11-06 04:43:31 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-11-06 04:43:31 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-06 04:43:31 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-11-06 04:43:31 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1048 ms
+2019-11-06 04:43:32 PM  INFO DESKTOP-K2V0HMH---[           main] o.m.d.cluster                            : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-11-06 04:43:32 PM  INFO DESKTOP-K2V0HMH---[           main] o.m.d.cluster                            : Adding discovered server localhost:27017 to client view of cluster
+2019-11-06 04:43:32 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.connection                         : Opened connection [connectionId{localValue:1, serverValue:116}] to localhost:27017
+2019-11-06 04:43:32 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.cluster                            : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 9]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1952440}
+2019-11-06 04:43:32 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.cluster                            : Discovered cluster type of STANDALONE
+2019-11-06 04:43:32 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 04:43:32 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 04:43:32 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 04:43:32 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 04:43:32 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-06 04:43:32 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-9999"]
+2019-11-06 04:43:32 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 9999 (http) with context path ''
+2019-11-06 04:43:32 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : Started FirozAltafApp in 2.458 seconds (JVM running for 3.191)
+2019-11-06 04:43:35 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-3] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-06 04:43:35 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-3] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2019-11-06 04:43:35 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-3] o.s.w.s.DispatcherServlet                : Completed initialization in 4 ms
+2019-11-06 04:43:35 PM ERROR DESKTOP-K2V0HMH---[nio-9999-exec-3] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.multipart.MultipartException: Current request is not a multipart request] with root cause
+org.springframework.web.multipart.MultipartException: Current request is not a multipart request
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValue(RequestParamMethodArgumentResolver.java:195)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:114)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:127)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:798)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2019-11-06 04:46:17 PM ERROR DESKTOP-K2V0HMH---[nio-9999-exec-1] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.io.FileNotFoundException: class path resource [static/downloads/80BK-A.dwg] cannot be resolved to URL because it does not exist
+	at org.springframework.core.io.ClassPathResource.getURL(ClassPathResource.java:195)
+	at org.springframework.core.io.AbstractFileResolvingResource.contentLength(AbstractFileResolvingResource.java:226)
+	at org.springframework.http.converter.ResourceHttpMessageConverter.getContentLength(ResourceHttpMessageConverter.java:116)
+	at org.springframework.http.converter.ResourceHttpMessageConverter.getContentLength(ResourceHttpMessageConverter.java:45)
+	at org.springframework.http.converter.AbstractHttpMessageConverter.addDefaultHeaders(AbstractHttpMessageConverter.java:260)
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:211)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:294)
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:226)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:123)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:798)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2019-11-06 04:47:54 PM ERROR DESKTOP-K2V0HMH---[nio-9999-exec-6] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.io.FileNotFoundException: class path resource [static/downloads/10A.pdf] cannot be resolved to URL because it does not exist
+	at org.springframework.core.io.ClassPathResource.getURL(ClassPathResource.java:195)
+	at org.springframework.core.io.AbstractFileResolvingResource.contentLength(AbstractFileResolvingResource.java:226)
+	at org.springframework.http.converter.ResourceHttpMessageConverter.getContentLength(ResourceHttpMessageConverter.java:116)
+	at org.springframework.http.converter.ResourceHttpMessageConverter.getContentLength(ResourceHttpMessageConverter.java:45)
+	at org.springframework.http.converter.AbstractHttpMessageConverter.addDefaultHeaders(AbstractHttpMessageConverter.java:260)
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:211)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:294)
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:226)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:123)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:798)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2019-11-06 04:51:19 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : Starting FirozAltafApp on DESKTOP-K2V0HMH with PID 13168 (started by Altaf in D:\GroupBima\My Workspace\firozaltaf)
+2019-11-06 04:51:19 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : No active profile set, falling back to default profiles: default
+2019-11-06 04:51:19 PM  INFO DESKTOP-K2V0HMH---[           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-06 04:51:19 PM  INFO DESKTOP-K2V0HMH---[           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52ms. Found 7 repository interfaces.
+2019-11-06 04:51:20 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 9999 (http)
+2019-11-06 04:51:20 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-9999"]
+2019-11-06 04:51:20 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-11-06 04:51:20 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-06 04:51:20 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-11-06 04:51:20 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1086 ms
+2019-11-06 04:51:20 PM  INFO DESKTOP-K2V0HMH---[           main] o.m.d.cluster                            : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-11-06 04:51:20 PM  INFO DESKTOP-K2V0HMH---[           main] o.m.d.cluster                            : Adding discovered server localhost:27017 to client view of cluster
+2019-11-06 04:51:21 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.connection                         : Opened connection [connectionId{localValue:1, serverValue:131}] to localhost:27017
+2019-11-06 04:51:21 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.cluster                            : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 9]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3030741}
+2019-11-06 04:51:21 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.cluster                            : Discovered cluster type of STANDALONE
+2019-11-06 04:51:21 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 04:51:21 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 04:51:21 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 04:51:21 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 04:51:21 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-06 04:51:21 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-9999"]
+2019-11-06 04:51:21 PM ERROR DESKTOP-K2V0HMH---[           main] o.a.c.u.LifecycleBase                    : Failed to start component [Connector[HTTP/1.1-9999]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.firozaltaf.FirozAltafApp.main(FirozAltafApp.java:12)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 more
+2019-11-06 04:51:21 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.h.Http11NioProtocol                : Pausing ProtocolHandler ["http-nio-9999"]
+2019-11-06 04:51:21 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2019-11-06 04:51:21 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.u.LifecycleBase                    : The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2019-11-06 04:51:21 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.h.Http11NioProtocol                : Stopping ProtocolHandler ["http-nio-9999"]
+2019-11-06 04:51:21 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.h.Http11NioProtocol                : Destroying ProtocolHandler ["http-nio-9999"]
+2019-11-06 04:51:21 PM  INFO DESKTOP-K2V0HMH---[           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-11-06 04:51:21 PM ERROR DESKTOP-K2V0HMH---[           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 9999 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 9999, or configure this application to listen on another port.
+
+2019-11-06 04:51:21 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-06 04:51:28 PM  INFO DESKTOP-K2V0HMH---[n(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-11-06 04:51:28 PM  INFO DESKTOP-K2V0HMH---[n(10)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-06 04:51:32 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : Starting FirozAltafApp on DESKTOP-K2V0HMH with PID 3296 (started by Altaf in D:\GroupBima\My Workspace\firozaltaf)
+2019-11-06 04:51:32 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : No active profile set, falling back to default profiles: default
+2019-11-06 04:51:32 PM  INFO DESKTOP-K2V0HMH---[           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-06 04:51:32 PM  INFO DESKTOP-K2V0HMH---[           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64ms. Found 7 repository interfaces.
+2019-11-06 04:51:32 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 9999 (http)
+2019-11-06 04:51:33 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-9999"]
+2019-11-06 04:51:33 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-11-06 04:51:33 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-06 04:51:33 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-11-06 04:51:33 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 933 ms
+2019-11-06 04:51:33 PM  INFO DESKTOP-K2V0HMH---[           main] o.m.d.cluster                            : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-11-06 04:51:33 PM  INFO DESKTOP-K2V0HMH---[           main] o.m.d.cluster                            : Adding discovered server localhost:27017 to client view of cluster
+2019-11-06 04:51:33 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.connection                         : Opened connection [connectionId{localValue:1, serverValue:132}] to localhost:27017
+2019-11-06 04:51:33 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.cluster                            : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 9]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2260979}
+2019-11-06 04:51:33 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.cluster                            : Discovered cluster type of STANDALONE
+2019-11-06 04:51:33 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 04:51:33 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 04:51:33 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 04:51:33 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 04:51:34 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-06 04:51:34 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-9999"]
+2019-11-06 04:51:34 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 9999 (http) with context path ''
+2019-11-06 04:51:34 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : Started FirozAltafApp in 2.378 seconds (JVM running for 3.113)
+2019-11-06 04:52:08 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-06 04:52:08 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2019-11-06 04:52:08 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 9 ms
+2019-11-06 04:52:59 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_URL=https://sandbox.zamzar.com/v1/jobs
+
+2019-11-06 04:52:59 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-3] o.m.d.connection                         : Opened connection [connectionId{localValue:2, serverValue:136}] to localhost:27017
+2019-11-06 04:52:59 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversion result=
+{"id":8342355,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"initialising","sandbox":true,"created_at":"2019-11-06T16:13:18Z","finished_at":null,"source_file":{"id":60115720,"name":"77-4 TEST LEADS.dwg","size":31000},"target_files":[],"target_format":"jpg","credit_cost":2}
+2019-11-06 04:52:59 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversionResponse=
+ConversionOutput [id=8342355, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=initialising, sandbox=true, created_at=2019-11-06T16:13:18Z, finished_at=null, source_file=SourceFile [id=60115720, name=77-4 TEST LEADS.dwg, size=31000], target_files=[], target_format=jpg, credit_cost=2]
+2019-11-06 04:52:59 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8342355
+
+2019-11-06 04:53:01 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8342355,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"successful","sandbox":true,"created_at":"2019-11-06T16:13:18Z","finished_at":"2019-11-06T16:13:30Z","source_file":{"id":60115720,"name":"77-4 TEST LEADS.dwg","size":31000},"target_files":[{"id":60115747,"name":"77-4 TEST LEADS.jpg","size":624434}],"target_format":"jpg","credit_cost":2}
+2019-11-06 04:53:01 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8342355, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=successful, sandbox=true, created_at=2019-11-06T16:13:18Z, finished_at=2019-11-06T16:13:30Z, source_file=SourceFile [id=60115720, name=77-4 TEST LEADS.dwg, size=31000], target_files=[TargetFile [id=60115747, name=77-4 TEST LEADS.jpg, size=624434]], target_format=jpg, credit_cost=2]
+2019-11-06 04:53:01 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8342355
+
+2019-11-06 04:53:02 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8342355,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"successful","sandbox":true,"created_at":"2019-11-06T16:13:18Z","finished_at":"2019-11-06T16:13:30Z","source_file":{"id":60115720,"name":"77-4 TEST LEADS.dwg","size":31000},"target_files":[{"id":60115747,"name":"77-4 TEST LEADS.jpg","size":624434}],"target_format":"jpg","credit_cost":2}
+2019-11-06 04:53:02 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8342355, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=successful, sandbox=true, created_at=2019-11-06T16:13:18Z, finished_at=2019-11-06T16:13:30Z, source_file=SourceFile [id=60115720, name=77-4 TEST LEADS.dwg, size=31000], target_files=[TargetFile [id=60115747, name=77-4 TEST LEADS.jpg, size=624434]], target_format=jpg, credit_cost=2]
+2019-11-06 04:53:02 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+DOWNLOAD_FILE_URL=https://sandbox.zamzar.com/v1/files/60115747/content
+2019-11-06 04:53:23 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+File downloaded=
+TargetFile [id=60115747, name=77-4 TEST LEADS.jpg, size=624434]
+2019-11-06 05:13:16 PM  INFO DESKTOP-K2V0HMH---[n(24)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-11-06 05:13:16 PM  INFO DESKTOP-K2V0HMH---[n(24)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-06 05:13:16 PM  INFO DESKTOP-K2V0HMH---[n(24)-127.0.0.1] o.m.d.connection                         : Closed connection [connectionId{localValue:2, serverValue:136}] to localhost:27017 because the pool has been closed.
+2019-11-06 05:13:27 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : Starting FirozAltafApp on DESKTOP-K2V0HMH with PID 13948 (started by Altaf in D:\GroupBima\My Workspace\firozaltaf)
+2019-11-06 05:13:27 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : No active profile set, falling back to default profiles: default
+2019-11-06 05:13:28 PM  INFO DESKTOP-K2V0HMH---[           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-06 05:13:28 PM  INFO DESKTOP-K2V0HMH---[           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63ms. Found 7 repository interfaces.
+2019-11-06 05:13:28 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 9999 (http)
+2019-11-06 05:13:28 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-9999"]
+2019-11-06 05:13:28 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-11-06 05:13:28 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-06 05:13:28 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-11-06 05:13:28 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 997 ms
+2019-11-06 05:13:29 PM  INFO DESKTOP-K2V0HMH---[           main] o.m.d.cluster                            : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-11-06 05:13:29 PM  INFO DESKTOP-K2V0HMH---[           main] o.m.d.cluster                            : Adding discovered server localhost:27017 to client view of cluster
+2019-11-06 05:13:29 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.connection                         : Opened connection [connectionId{localValue:1, serverValue:174}] to localhost:27017
+2019-11-06 05:13:29 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.cluster                            : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 9]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2417541}
+2019-11-06 05:13:29 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.cluster                            : Discovered cluster type of STANDALONE
+2019-11-06 05:13:29 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 05:13:29 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 05:13:29 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 05:13:29 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 05:13:29 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-06 05:13:30 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-9999"]
+2019-11-06 05:13:30 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 9999 (http) with context path ''
+2019-11-06 05:13:30 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : Started FirozAltafApp in 2.372 seconds (JVM running for 3.131)
+2019-11-06 05:13:47 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-06 05:13:47 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2019-11-06 05:13:47 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 5 ms
+2019-11-06 05:13:47 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_URL=https://sandbox.zamzar.com/v1/jobs
+
+2019-11-06 05:13:47 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] o.m.d.connection                         : Opened connection [connectionId{localValue:2, serverValue:176}] to localhost:27017
+2019-11-06 05:13:47 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] c.f.s.DwgToJpgConvertorService           : 
+conversion result=
+{"id":8342355,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"initialising","sandbox":true,"created_at":"2019-11-06T16:13:18Z","finished_at":null,"source_file":{"id":60115720,"name":"77-4 TEST LEADS.dwg","size":31000},"target_files":[],"target_format":"jpg","credit_cost":2}
+2019-11-06 05:13:47 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] c.f.s.DwgToJpgConvertorService           : 
+conversionResponse=
+ConversionOutput [id=8342355, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=initialising, sandbox=true, created_at=2019-11-06T16:13:18Z, finished_at=null, source_file=SourceFile [id=60115720, name=77-4 TEST LEADS.dwg, size=31000], target_files=[], target_format=jpg, credit_cost=2]
+2019-11-06 05:13:47 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8342355
+
+2019-11-06 05:13:49 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8342355,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"successful","sandbox":true,"created_at":"2019-11-06T16:13:18Z","finished_at":"2019-11-06T16:13:30Z","source_file":{"id":60115720,"name":"77-4 TEST LEADS.dwg","size":31000},"target_files":[{"id":60115747,"name":"77-4 TEST LEADS.jpg","size":624434}],"target_format":"jpg","credit_cost":2}
+2019-11-06 05:13:49 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8342355, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=successful, sandbox=true, created_at=2019-11-06T16:13:18Z, finished_at=2019-11-06T16:13:30Z, source_file=SourceFile [id=60115720, name=77-4 TEST LEADS.dwg, size=31000], target_files=[TargetFile [id=60115747, name=77-4 TEST LEADS.jpg, size=624434]], target_format=jpg, credit_cost=2]
+2019-11-06 05:13:49 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8342355
+
+2019-11-06 05:13:49 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8342355,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"successful","sandbox":true,"created_at":"2019-11-06T16:13:18Z","finished_at":"2019-11-06T16:13:30Z","source_file":{"id":60115720,"name":"77-4 TEST LEADS.dwg","size":31000},"target_files":[{"id":60115747,"name":"77-4 TEST LEADS.jpg","size":624434}],"target_format":"jpg","credit_cost":2}
+2019-11-06 05:13:49 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8342355, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=successful, sandbox=true, created_at=2019-11-06T16:13:18Z, finished_at=2019-11-06T16:13:30Z, source_file=SourceFile [id=60115720, name=77-4 TEST LEADS.dwg, size=31000], target_files=[TargetFile [id=60115747, name=77-4 TEST LEADS.jpg, size=624434]], target_format=jpg, credit_cost=2]
+2019-11-06 05:13:49 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] c.f.s.DwgToJpgConvertorService           : 
+DOWNLOAD_FILE_URL=https://sandbox.zamzar.com/v1/files/60115747/content
+2019-11-06 05:14:17 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] c.f.s.DwgToJpgConvertorService           : 
+File downloaded=
+TargetFile [id=60115747, name=77-4 TEST LEADS.jpg, size=624434]
+2019-11-06 05:14:17 PM ERROR DESKTOP-K2V0HMH---[nio-9999-exec-1] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.io.FileNotFoundException: class path resource [src/main/resources/static/downloads/77-4 TEST LEADS.jpg] cannot be resolved to URL because it does not exist
+	at org.springframework.core.io.ClassPathResource.getURL(ClassPathResource.java:195)
+	at org.springframework.core.io.AbstractFileResolvingResource.contentLength(AbstractFileResolvingResource.java:226)
+	at org.springframework.http.converter.ResourceHttpMessageConverter.getContentLength(ResourceHttpMessageConverter.java:116)
+	at org.springframework.http.converter.ResourceHttpMessageConverter.getContentLength(ResourceHttpMessageConverter.java:45)
+	at org.springframework.http.converter.AbstractHttpMessageConverter.addDefaultHeaders(AbstractHttpMessageConverter.java:260)
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:211)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:294)
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:226)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:123)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:798)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2019-11-06 05:19:17 PM  INFO DESKTOP-K2V0HMH---[on(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-11-06 05:19:17 PM  INFO DESKTOP-K2V0HMH---[on(8)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-06 05:19:17 PM  INFO DESKTOP-K2V0HMH---[on(8)-127.0.0.1] o.m.d.connection                         : Closed connection [connectionId{localValue:2, serverValue:176}] to localhost:27017 because the pool has been closed.
+2019-11-06 05:19:22 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : Starting FirozAltafApp on DESKTOP-K2V0HMH with PID 14596 (started by Altaf in D:\GroupBima\My Workspace\firozaltaf)
+2019-11-06 05:19:22 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : No active profile set, falling back to default profiles: default
+2019-11-06 05:19:22 PM  INFO DESKTOP-K2V0HMH---[           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-06 05:19:22 PM  INFO DESKTOP-K2V0HMH---[           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56ms. Found 7 repository interfaces.
+2019-11-06 05:19:23 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 9999 (http)
+2019-11-06 05:19:23 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-9999"]
+2019-11-06 05:19:23 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-11-06 05:19:23 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-06 05:19:23 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-11-06 05:19:23 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1032 ms
+2019-11-06 05:19:23 PM  INFO DESKTOP-K2V0HMH---[           main] o.m.d.cluster                            : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-11-06 05:19:23 PM  INFO DESKTOP-K2V0HMH---[           main] o.m.d.cluster                            : Adding discovered server localhost:27017 to client view of cluster
+2019-11-06 05:19:23 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.connection                         : Opened connection [connectionId{localValue:1, serverValue:186}] to localhost:27017
+2019-11-06 05:19:23 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.cluster                            : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 9]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2789904}
+2019-11-06 05:19:23 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.cluster                            : Discovered cluster type of STANDALONE
+2019-11-06 05:19:23 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 05:19:23 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 05:19:23 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 05:19:23 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 05:19:24 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-06 05:19:24 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-9999"]
+2019-11-06 05:19:24 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 9999 (http) with context path ''
+2019-11-06 05:19:24 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : Started FirozAltafApp in 2.497 seconds (JVM running for 3.352)
+2019-11-06 05:19:29 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-06 05:19:29 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2019-11-06 05:19:29 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 6 ms
+2019-11-06 05:19:29 PM ERROR DESKTOP-K2V0HMH---[nio-9999-exec-2] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.io.FileNotFoundException: class path resource [src/main/resources/static/downloads/77-4 TEST LEADS.jpg] cannot be resolved to URL because it does not exist
+	at org.springframework.core.io.ClassPathResource.getURL(ClassPathResource.java:195)
+	at org.springframework.core.io.AbstractFileResolvingResource.contentLength(AbstractFileResolvingResource.java:226)
+	at org.springframework.http.converter.ResourceHttpMessageConverter.getContentLength(ResourceHttpMessageConverter.java:116)
+	at org.springframework.http.converter.ResourceHttpMessageConverter.getContentLength(ResourceHttpMessageConverter.java:45)
+	at org.springframework.http.converter.AbstractHttpMessageConverter.addDefaultHeaders(AbstractHttpMessageConverter.java:260)
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:211)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:294)
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:226)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:123)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:798)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2019-11-06 05:19:43 PM  INFO DESKTOP-K2V0HMH---[on(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-11-06 05:19:43 PM  INFO DESKTOP-K2V0HMH---[on(3)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-06 05:23:06 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : Starting FirozAltafApp on DESKTOP-K2V0HMH with PID 8136 (started by Altaf in D:\GroupBima\My Workspace\firozaltaf)
+2019-11-06 05:23:06 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : No active profile set, falling back to default profiles: default
+2019-11-06 05:23:06 PM  INFO DESKTOP-K2V0HMH---[           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-06 05:23:06 PM  INFO DESKTOP-K2V0HMH---[           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54ms. Found 7 repository interfaces.
+2019-11-06 05:23:07 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 9999 (http)
+2019-11-06 05:23:07 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-9999"]
+2019-11-06 05:23:07 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-11-06 05:23:07 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-06 05:23:07 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-11-06 05:23:07 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 889 ms
+2019-11-06 05:23:07 PM  INFO DESKTOP-K2V0HMH---[           main] o.m.d.cluster                            : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-11-06 05:23:07 PM  INFO DESKTOP-K2V0HMH---[           main] o.m.d.cluster                            : Adding discovered server localhost:27017 to client view of cluster
+2019-11-06 05:23:07 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.connection                         : Opened connection [connectionId{localValue:1, serverValue:194}] to localhost:27017
+2019-11-06 05:23:07 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.cluster                            : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 9]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2295535}
+2019-11-06 05:23:07 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.cluster                            : Discovered cluster type of STANDALONE
+2019-11-06 05:23:07 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 05:23:07 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 05:23:07 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 05:23:07 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 05:23:08 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-06 05:23:08 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-9999"]
+2019-11-06 05:23:08 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 9999 (http) with context path ''
+2019-11-06 05:23:08 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : Started FirozAltafApp in 2.238 seconds (JVM running for 2.98)
+2019-11-06 05:23:11 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-06 05:23:11 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2019-11-06 05:23:11 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 4 ms
+2019-11-06 05:23:11 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_URL=https://sandbox.zamzar.com/v1/jobs
+
+2019-11-06 05:23:11 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] o.m.d.connection                         : Opened connection [connectionId{localValue:2, serverValue:195}] to localhost:27017
+2019-11-06 05:23:11 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] c.f.s.DwgToJpgConvertorService           : 
+conversion result=
+{"id":8342355,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"initialising","sandbox":true,"created_at":"2019-11-06T16:13:18Z","finished_at":null,"source_file":{"id":60115720,"name":"77-4 TEST LEADS.dwg","size":31000},"target_files":[],"target_format":"jpg","credit_cost":2}
+2019-11-06 05:23:11 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] c.f.s.DwgToJpgConvertorService           : 
+conversionResponse=
+ConversionOutput [id=8342355, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=initialising, sandbox=true, created_at=2019-11-06T16:13:18Z, finished_at=null, source_file=SourceFile [id=60115720, name=77-4 TEST LEADS.dwg, size=31000], target_files=[], target_format=jpg, credit_cost=2]
+2019-11-06 05:23:11 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8342355
+
+2019-11-06 05:23:15 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8342355,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"successful","sandbox":true,"created_at":"2019-11-06T16:13:18Z","finished_at":"2019-11-06T16:13:30Z","source_file":{"id":60115720,"name":"77-4 TEST LEADS.dwg","size":31000},"target_files":[{"id":60115747,"name":"77-4 TEST LEADS.jpg","size":624434}],"target_format":"jpg","credit_cost":2}
+2019-11-06 05:23:15 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8342355, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=successful, sandbox=true, created_at=2019-11-06T16:13:18Z, finished_at=2019-11-06T16:13:30Z, source_file=SourceFile [id=60115720, name=77-4 TEST LEADS.dwg, size=31000], target_files=[TargetFile [id=60115747, name=77-4 TEST LEADS.jpg, size=624434]], target_format=jpg, credit_cost=2]
+2019-11-06 05:23:15 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_STATUS_URL=https://sandbox.zamzar.com/v1/jobs/8342355
+
+2019-11-06 05:23:15 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] c.f.s.DwgToJpgConvertorService           : 
+conversion status result=
+{"id":8342355,"key":"9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7","status":"successful","sandbox":true,"created_at":"2019-11-06T16:13:18Z","finished_at":"2019-11-06T16:13:30Z","source_file":{"id":60115720,"name":"77-4 TEST LEADS.dwg","size":31000},"target_files":[{"id":60115747,"name":"77-4 TEST LEADS.jpg","size":624434}],"target_format":"jpg","credit_cost":2}
+2019-11-06 05:23:15 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] c.f.s.DwgToJpgConvertorService           : 
+conversionStatusResponse=
+ConversionStatusOutput [id=8342355, key=9e41b975ff0ebf4b10c11576fdbd8cd70529c7d7, status=successful, sandbox=true, created_at=2019-11-06T16:13:18Z, finished_at=2019-11-06T16:13:30Z, source_file=SourceFile [id=60115720, name=77-4 TEST LEADS.dwg, size=31000], target_files=[TargetFile [id=60115747, name=77-4 TEST LEADS.jpg, size=624434]], target_format=jpg, credit_cost=2]
+2019-11-06 05:23:15 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] c.f.s.DwgToJpgConvertorService           : 
+DOWNLOAD_FILE_URL=https://sandbox.zamzar.com/v1/files/60115747/content
+2019-11-06 05:23:20 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] c.f.s.DwgToJpgConvertorService           : 
+File downloaded=
+TargetFile [id=60115747, name=77-4 TEST LEADS.jpg, size=624434]
+2019-11-06 05:25:11 PM  INFO DESKTOP-K2V0HMH---[on(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-11-06 05:25:11 PM  INFO DESKTOP-K2V0HMH---[on(5)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-06 05:25:11 PM  INFO DESKTOP-K2V0HMH---[on(5)-127.0.0.1] o.m.d.connection                         : Closed connection [connectionId{localValue:2, serverValue:195}] to localhost:27017 because the pool has been closed.
+2019-11-06 05:25:58 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : Starting FirozAltafApp on DESKTOP-K2V0HMH with PID 3424 (started by Altaf in D:\GroupBima\My Workspace\firozaltaf)
+2019-11-06 05:25:58 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : No active profile set, falling back to default profiles: default
+2019-11-06 05:25:58 PM  INFO DESKTOP-K2V0HMH---[           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-06 05:25:58 PM  INFO DESKTOP-K2V0HMH---[           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73ms. Found 7 repository interfaces.
+2019-11-06 05:25:59 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 9999 (http)
+2019-11-06 05:25:59 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-9999"]
+2019-11-06 05:25:59 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-11-06 05:25:59 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-06 05:25:59 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-11-06 05:25:59 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 945 ms
+2019-11-06 05:25:59 PM  INFO DESKTOP-K2V0HMH---[           main] o.m.d.cluster                            : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-11-06 05:25:59 PM  INFO DESKTOP-K2V0HMH---[           main] o.m.d.cluster                            : Adding discovered server localhost:27017 to client view of cluster
+2019-11-06 05:25:59 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.connection                         : Opened connection [connectionId{localValue:1, serverValue:201}] to localhost:27017
+2019-11-06 05:25:59 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.cluster                            : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 9]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2164009}
+2019-11-06 05:25:59 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.cluster                            : Discovered cluster type of STANDALONE
+2019-11-06 05:25:59 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 05:25:59 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 05:26:00 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 05:26:00 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 05:26:00 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-06 05:26:00 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-9999"]
+2019-11-06 05:26:00 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 9999 (http) with context path ''
+2019-11-06 05:26:00 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : Started FirozAltafApp in 2.587 seconds (JVM running for 3.374)
+2019-11-06 05:32:53 PM  INFO DESKTOP-K2V0HMH---[n(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-11-06 05:32:53 PM  INFO DESKTOP-K2V0HMH---[n(10)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-06 05:33:01 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : Starting FirozAltafApp on DESKTOP-K2V0HMH with PID 10988 (started by Altaf in D:\GroupBima\My Workspace\firozaltaf)
+2019-11-06 05:33:01 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : No active profile set, falling back to default profiles: default
+2019-11-06 05:33:03 PM  INFO DESKTOP-K2V0HMH---[           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-06 05:33:03 PM  INFO DESKTOP-K2V0HMH---[           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 191ms. Found 7 repository interfaces.
+2019-11-06 05:33:04 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 9999 (http)
+2019-11-06 05:33:04 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-9999"]
+2019-11-06 05:33:04 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-11-06 05:33:04 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-06 05:33:04 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-11-06 05:33:04 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2633 ms
+2019-11-06 05:33:05 PM  INFO DESKTOP-K2V0HMH---[           main] o.m.d.cluster                            : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-11-06 05:33:05 PM  INFO DESKTOP-K2V0HMH---[           main] o.m.d.cluster                            : Adding discovered server localhost:27017 to client view of cluster
+2019-11-06 05:33:05 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.connection                         : Opened connection [connectionId{localValue:1, serverValue:220}] to localhost:27017
+2019-11-06 05:33:05 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.cluster                            : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 9]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=6028336}
+2019-11-06 05:33:05 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.cluster                            : Discovered cluster type of STANDALONE
+2019-11-06 05:33:05 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 05:33:05 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 05:33:05 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 05:33:05 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 05:33:17 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-06 05:33:18 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-9999"]
+2019-11-06 05:33:18 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 9999 (http) with context path ''
+2019-11-06 05:33:18 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : Started FirozAltafApp in 17.757 seconds (JVM running for 19.631)
+2019-11-06 05:33:21 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-3] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-06 05:33:21 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-3] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2019-11-06 05:33:21 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-3] o.s.w.s.DispatcherServlet                : Completed initialization in 34 ms
+2019-11-06 05:33:21 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-3] c.f.s.DwgToJpgConvertorService           : 
+CONVERSION_URL=https://sandbox.zamzar.com/v1/jobs
+
+2019-11-06 05:41:42 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : Starting FirozAltafApp on DESKTOP-K2V0HMH with PID 11164 (started by Altaf in D:\GroupBima\My Workspace\firozaltaf)
+2019-11-06 05:41:42 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : No active profile set, falling back to default profiles: default
+2019-11-06 05:41:43 PM  INFO DESKTOP-K2V0HMH---[           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-06 05:41:44 PM  INFO DESKTOP-K2V0HMH---[           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 128ms. Found 7 repository interfaces.
+2019-11-06 05:41:45 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 9999 (http)
+2019-11-06 05:41:45 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-9999"]
+2019-11-06 05:41:45 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-11-06 05:41:45 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-06 05:41:45 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-11-06 05:41:45 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2362 ms
+2019-11-06 05:41:46 PM  INFO DESKTOP-K2V0HMH---[           main] o.m.d.cluster                            : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-11-06 05:41:46 PM  INFO DESKTOP-K2V0HMH---[           main] o.m.d.cluster                            : Adding discovered server localhost:27017 to client view of cluster
+2019-11-06 05:41:46 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.connection                         : Opened connection [connectionId{localValue:1, serverValue:240}] to localhost:27017
+2019-11-06 05:41:46 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.cluster                            : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 9]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4281826}
+2019-11-06 05:41:46 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.cluster                            : Discovered cluster type of STANDALONE
+2019-11-06 05:41:46 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 05:41:46 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 05:41:46 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 05:41:46 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 05:41:47 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-06 05:41:47 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-9999"]
+2019-11-06 05:41:47 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 9999 (http) with context path ''
+2019-11-06 05:41:47 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : Started FirozAltafApp in 5.584 seconds (JVM running for 7.289)
+2019-11-06 05:42:25 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-06 05:42:25 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2019-11-06 05:42:25 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 14 ms
+2019-11-06 05:42:44 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-2] o.m.d.connection                         : Opened connection [connectionId{localValue:2, serverValue:243}] to localhost:27017
+2019-11-06 05:43:07 PM ERROR DESKTOP-K2V0HMH---[nio-9999-exec-2] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.IncorrectResultSizeDataAccessException: Query { "$java" : Query: { "fileName" : "77-4 TEST LEADS.jpg" }, Fields: { }, Sort: { } } returned non unique result.] with root cause
+org.springframework.dao.IncorrectResultSizeDataAccessException: Query { "$java" : Query: { "fileName" : "77-4 TEST LEADS.jpg" }, Fields: { }, Sort: { } } returned non unique result.
+	at org.springframework.data.mongodb.core.ExecutableFindOperationSupport$ExecutableFindSupport.oneValue(ExecutableFindOperationSupport.java:133)
+	at org.springframework.data.mongodb.repository.query.AbstractMongoQuery.lambda$getExecution$4(AbstractMongoQuery.java:126)
+	at org.springframework.data.mongodb.repository.query.AbstractMongoQuery.execute(AbstractMongoQuery.java:99)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:605)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$invoke$3(RepositoryFactorySupport.java:595)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:595)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:59)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy78.findByFileName(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy78.findByFileName(Unknown Source)
+	at com.firozaltaf.service.DwgToJpgConvertorService.convertDwgToJpg(DwgToJpgConvertorService.java:64)
+	at com.firozaltaf.controller.DwgToJpgConvertorController.convertDwgToJpg(DwgToJpgConvertorController.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:798)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2019-11-06 05:48:53 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : Starting FirozAltafApp on DESKTOP-K2V0HMH with PID 15804 (started by Altaf in D:\GroupBima\My Workspace\firozaltaf)
+2019-11-06 05:48:53 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : No active profile set, falling back to default profiles: default
+2019-11-06 05:48:55 PM  INFO DESKTOP-K2V0HMH---[           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-06 05:48:55 PM  INFO DESKTOP-K2V0HMH---[           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 206ms. Found 7 repository interfaces.
+2019-11-06 05:48:56 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 9999 (http)
+2019-11-06 05:48:56 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-9999"]
+2019-11-06 05:48:56 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-11-06 05:48:56 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-06 05:48:57 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-11-06 05:48:57 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 3015 ms
+2019-11-06 05:48:57 PM  INFO DESKTOP-K2V0HMH---[           main] o.m.d.cluster                            : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-11-06 05:48:57 PM  INFO DESKTOP-K2V0HMH---[           main] o.m.d.cluster                            : Adding discovered server localhost:27017 to client view of cluster
+2019-11-06 05:48:58 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.connection                         : Opened connection [connectionId{localValue:1, serverValue:256}] to localhost:27017
+2019-11-06 05:48:58 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.cluster                            : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 9]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=7162704}
+2019-11-06 05:48:58 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.cluster                            : Discovered cluster type of STANDALONE
+2019-11-06 05:48:58 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 05:48:58 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 05:48:58 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 05:48:58 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 05:48:59 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-06 05:49:00 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-9999"]
+2019-11-06 05:49:00 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 9999 (http) with context path ''
+2019-11-06 05:49:00 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : Started FirozAltafApp in 6.943 seconds (JVM running for 8.424)
+2019-11-06 05:50:18 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-06 05:50:18 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2019-11-06 05:50:18 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 18 ms
+2019-11-06 05:50:25 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-2] o.m.d.connection                         : Opened connection [connectionId{localValue:2, serverValue:260}] to localhost:27017
+2019-11-06 05:53:59 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : Starting FirozAltafApp on DESKTOP-K2V0HMH with PID 1692 (started by Altaf in D:\GroupBima\My Workspace\firozaltaf)
+2019-11-06 05:53:59 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : No active profile set, falling back to default profiles: default
+2019-11-06 05:54:00 PM  INFO DESKTOP-K2V0HMH---[           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-06 05:54:00 PM  INFO DESKTOP-K2V0HMH---[           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 99ms. Found 7 repository interfaces.
+2019-11-06 05:54:01 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 9999 (http)
+2019-11-06 05:54:01 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-9999"]
+2019-11-06 05:54:01 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-11-06 05:54:01 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-06 05:54:01 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-11-06 05:54:01 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1821 ms
+2019-11-06 05:54:02 PM  INFO DESKTOP-K2V0HMH---[           main] o.m.d.cluster                            : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-11-06 05:54:02 PM  INFO DESKTOP-K2V0HMH---[           main] o.m.d.cluster                            : Adding discovered server localhost:27017 to client view of cluster
+2019-11-06 05:54:02 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.connection                         : Opened connection [connectionId{localValue:1, serverValue:267}] to localhost:27017
+2019-11-06 05:54:02 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.cluster                            : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 9]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3433077}
+2019-11-06 05:54:02 PM  INFO DESKTOP-K2V0HMH---[localhost:27017] o.m.d.cluster                            : Discovered cluster type of STANDALONE
+2019-11-06 05:54:02 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 05:54:02 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 05:54:02 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 05:54:02 PM  WARN DESKTOP-K2V0HMH---[           main] o.s.d.c.CustomConversions                : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-06 05:54:02 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-06 05:54:03 PM  INFO DESKTOP-K2V0HMH---[           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-9999"]
+2019-11-06 05:54:03 PM  INFO DESKTOP-K2V0HMH---[           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 9999 (http) with context path ''
+2019-11-06 05:54:03 PM  INFO DESKTOP-K2V0HMH---[           main] c.f.FirozAltafApp                        : Started FirozAltafApp in 4.15 seconds (JVM running for 4.893)
+2019-11-06 05:54:11 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-06 05:54:11 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2019-11-06 05:54:11 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 8 ms
+2019-11-06 05:54:11 PM  INFO DESKTOP-K2V0HMH---[nio-9999-exec-1] o.m.d.connection                         : Opened connection [connectionId{localValue:2, serverValue:269}] to localhost:27017
