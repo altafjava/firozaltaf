@@ -10,6 +10,7 @@ public class FirozAltafApp extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
 		SpringApplication.run(FirozAltafApp.class, args);
+		System.out.println("i am from main class");
 	}
 
 	@Override
